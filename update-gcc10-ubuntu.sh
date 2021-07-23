@@ -64,7 +64,7 @@ requiredver="10.0.0"
       echo
       echo
       echo "$(tput bold)$(tput setaf 2)Done!$(tput sgr 0)"
-      echo "Current gcc version is: $currentver"
+      echo "Current gcc version is: $(gcc -dumpversion)"
       echo
       echo
  fi
